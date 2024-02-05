@@ -1,0 +1,11 @@
+
+function rec(x){
+    console.log(x);
+    
+    let next=x-1
+    if(next>0){
+        rec(next)
+    }
+}
+
+let result=rec(5)
